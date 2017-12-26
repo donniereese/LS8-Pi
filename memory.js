@@ -1,7 +1,8 @@
 class MEMORY {
-    constructor() {
+    constructor(width = 8, type = "memory", perm = {r: true, w: true}) {
         this.bank = new Array(255);
         this.bank.fill(0b00000000);
+        this.write = 
     }
 
     read(addr) {
