@@ -68,7 +68,7 @@ const SP = 240; // stack poointer in register 1015, 8 - max 1023
 
 class CPU {
     constructor(ext, bus) {
-        // // Set Rom
+        // Set Rom
         // this.rom = new Array(511);
         // this.rom.fill(0);
         // Set Memory
